@@ -1,0 +1,8 @@
+print('the price of your meal shall be:')
+food_amount = float(input())
+print('please,dear cutomer, how much will you pay for tips?')
+tips = float(input())
+print('please tell me, my lord, how many people are there?')
+persons = float(input())
+print('amount per person:')
+print((food_amount + tips) / persons)
